@@ -5,7 +5,8 @@
   "main": "lambda.js",
   "scripts": {
     "build": "tsc && webpack",
-    "test": "jest"
+    "test": "jest",
+    "execute" :"bash my_bash_script.sh"
   },
   "dependencies": {
     "@types/aws-lambda": "^8.10.103",
